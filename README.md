@@ -1,6 +1,8 @@
 # Hagrid
 > Don't send a butler to do a wizard's job.
 
+![demo](https://github.com/digitalcake/hagrid/raw/master/demo.gif)
+
 Hagrid is a Alfred 3 workflow that will search hex.pm for the current version
 for a given package. Selecting a package will place that dep with the current
 version in your clipboard.
