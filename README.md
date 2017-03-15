@@ -12,13 +12,9 @@ version in your clipboard.
 * Alfred 3
 
 ## Installation
-1. this workflow assume the user has elixir environment.
-2. clone this repo
-3. cd to the project root, then run: `mix deps` to get mix dependencies
-4. next run `escript.build` to generate a script that the workflow will use called `hagrid`
-4. `mv hagrid /usr/local/bin/`
-5. `open HAGRID.alfredworkflow`
-6. then you can use this workflow
+1. Run `mix escript.install https://github.com/digitalcake/hagrid/raw/master/hagrid` in your terminal
+2. Answer yes to the prompt to install
+3. Download and install [Alfred 3 workflow](https://github.com/digitalcake/hagrid/raw/master/Hagrid.alfredworkflow)
 
 ## Usage
 1. Open Alfrend's prompt and type `hex {Search term}`
