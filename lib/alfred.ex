@@ -29,7 +29,6 @@ defmodule Alfred do
   end
 
   defp set_arg(name, version) do
-    "{:#{name}, '~> #{version}'}"
+    "{:#{name}, \"~> #{version}\"}"
   end
 end
-
